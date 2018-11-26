@@ -75,7 +75,7 @@ document.querySelector('.clear-tasks').addEventListener('click', function(e){
 
 // Adding a "#" will make it so the page doesn't refresh upon clicking the link button
 
-// This is the preferred way, as it is cleaner always to have a named function to put in
+// This is the preferred way, as it is cleaner always to have a named function to put in to it
 document.querySelector('.clear-tasks2').addEventListener('click', onClick);
 
 function onClick(e){
