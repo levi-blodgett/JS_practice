@@ -29,8 +29,8 @@ document.querySelector('form').addEventListener('submit', function(e){
 
   let tasks;
 
-  if (localStorage.getItem('tasks' === null)) {
-    tasks = []
+  if (localStorage.getItem('tasks') === null) {
+    tasks = [];
   } else {
     tasks = JSON.parse(localStorage.getItem('tasks'));
   }
@@ -40,7 +40,7 @@ document.querySelector('form').addEventListener('submit', function(e){
   localStorage.setItem('tasks', JSON.stringify(tasks));
 
   alert('Task saved');
-
+  
   e.preventDefault();
 });
 
