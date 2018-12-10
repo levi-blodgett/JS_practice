@@ -40,6 +40,7 @@ console.timeEnd('Hello');
 // // Cannot start with a number
 
 // // Multi-word vars
+// Naming Variables
 // var firstName = 'John' // Camel case
 // var first_name = 'Sarah' // Underscore
 // var FirstName = 'Tom'; // Pascal case
